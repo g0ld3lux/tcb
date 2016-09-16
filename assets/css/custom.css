@@ -1,0 +1,340 @@
+.nav.navbar-right.top-nav > li a{
+  color: #fff;
+  padding: 15px;
+}
+.navbar-right {
+  margin-right: 5px;
+}
+.navbar-inverse {
+  border-color: grey;
+  background: grey none repeat scroll 0 0;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+}
+.wrapper{
+  padding: 0 !important;
+}
+.side-nav {
+    background-color: #ddd;
+    padding-top: 20px;
+}
+.side-nav > .active > a, .side-nav > .active > a:focus, .side-nav > .active > a:hover,.side-nav > li > a {
+  background-color: transparent !important;
+  color: #446fff !important;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 10px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+}
+.side-nav li .makemoney {
+  background: #b30e0e none repeat scroll 0 0;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 8px 22px;
+  text-align: center;
+}
+.welcomepage {
+  float: right;
+}
+footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.all-info li {
+  list-style: outside none none;
+  font-size: 13px;
+}
+.all-info li.last {
+  padding-top: 12px;
+}
+.welcomepage h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 23px;
+  margin-left: 40px;
+}
+.sidebar-nav {
+  background: #ddd none repeat scroll 0 0;
+  min-height: 333px;
+}
+.navbar-nav > li {
+  text-align: center;
+  width: 100%;
+}
+.setting form h4 {
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+.page {
+  padding: 0 40px;
+}
+.page h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+form {
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-border{
+  border: 1px solid;
+  float: left;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.page .form-group {
+  float: left;
+  margin-bottom: 15px;
+  width: 100%;
+}
+label {
+  float: left;
+  width: 13%;
+}
+.page .form-control {
+  border-color: #000;
+  border-radius: 0;
+  float: left;
+  padding: 2px;
+  width: auto;
+  height: 25px;
+}
+.full-width{
+  width: 82% !important;
+}
+.colorbox{
+  width: 35px !important;
+}
+.side-nav li a:hover, .side-nav li a:focus {
+  background-color: transparent !important;
+}
+.nav.navbar-nav.side-nav a:hover {
+  text-decoration: none;
+}
+input[type="checkbox"], input[type="radio"] {
+  float: left;
+  margin-top: 2px;
+}
+.form-border .upload-text {
+  float: left;
+  padding-bottom: 10px;
+  width: 100%;
+}
+input[type="file"] {
+  float: left;
+}
+.btn.btn-default.upload {
+  float: left;
+  width: auto;
+}
+.checkbox-inline, .radio-inline {
+  float: left;
+  padding-left: 10px;
+  width: auto;
+}
+#add-tab1,#add-tab2,.remove-tab,.lessonlinkdelete,.lessonfiledelete {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.embedcode-box{
+  border: 1px solid #000;
+  min-height: 100px;
+  margin: 2px 0 18px;
+}
+.embed-code form{
+  border: 0 none;
+  padding: 0;
+}
+label#pwd{
+  width: 20%;
+}
+form#change-pass {
+  border: medium none;
+  padding: 0;
+}
+.cke_1.cke_chrome {
+  border-color: transparent !important;
+  box-shadow: none;
+}
+.cke_1 .cke_top,.cke_1 .cke_bottom,.cke_1 a.cke_button_off:hover, .cke_1 a.cke_button_off:focus, .cke_1 a.cke_button_off:active {
+  background-image: linear-gradient(to bottom, #fef7e9, #cfd1cf) !important;
+  border-bottom-color: #cfd1cf !important;
+  border-top-color: #cfd1cf !important;
+}
+.cke_1 .cke_toolgroup,.cke_1 .cke_combo_button {
+  border-color: #cfd1cf !important;
+}
+#username{
+  width: 20%;
+}
+.field1{
+  width: 100%;
+  float: left;
+}
+.edit_option {
+  float: right;
+}
+.edit_option .glyphicon {
+  font-size: 19px;
+  margin: 0 4px;
+  color: #000;
+}
+.field1 label {
+  font-size: 15px;
+  padding: 8px;
+  width: auto;
+}
+.odd{
+  background-color: #f6f6f6;
+}
+.glyphicon.glyphicon-arrow-down,.glyphicon.glyphicon-arrow-up {
+  color: #3498db;
+}
+.list-lesson {
+  min-height: 350px;
+}
+.embedlesson-listing .field1 label {
+  color: #44a6ec;
+  text-decoration: underline;
+  width: auto;
+}
+.added-lesson h4 {
+  font-weight: bold;
+  margin: 25px 0;
+}
+.added-lesson h5 {
+  font-weight: normal;
+}
+.page.added-lesson h5 a {
+  text-decoration: underline;
+}
+.cke_1 .cke_toolgroup,.cke_1 .cke_combo_button,.cke_1 a.cke_combo_button:hover, .cke_1 a.cke_combo_button:focus, .cke_1 .cke_combo_on a.cke_combo_button {
+  background: #fff none repeat scroll 0 0 !important;
+}
+.cke_1 .cke_toolbar_separator {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.cke_1.cke_panel{
+  border-color: #cfd1cf !important;
+}
+a{
+  cursor: pointer;
+  color: #4376a9;
+}
+
+/*Responsive css*/
+@media only screen and (max-width: 480px) {
+    label {
+  width: 50%;
+}
+.page .form-control {
+  width: 50%;
+}
+.full-width {
+  width: 50% !important;
+}
+label#pwd {
+  width: 50%;
+}
+body {
+  margin-top: 51px;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation:landscape) {
+label#pwd {
+  width: 50%;
+}
+label {
+  width: 25%;
+}
+body {
+  margin-top: 51px;
+}
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px){
+  .side-nav {
+  width: 34%;
+}
+label {
+  width: 30%;
+}
+label#pwd {
+  width: 48%;
+}
+}
+.loading {
+    position: fixed;
+    background-color: #000000;
+    opacity: .35;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 999999;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 25% auto;
+}
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+    background-color: yellow;
+}
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+#embed_code{width: 100%;
+height: 100%;
+border: none;
+outline: none;}
+.ImagePreviewBox img{display: block;margin: 0 auto;}

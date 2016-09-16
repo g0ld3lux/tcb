@@ -1,0 +1,129 @@
+.page {
+  padding: 0 40px;
+  float: left;
+  width: 94%;
+  font-family: sans-serif;
+}
+#username,label#pwd {
+  width: 43%;
+}
+.help-block {
+  float: right;
+}
+.login-page {
+  margin: 0 auto;
+  width: 364px;
+}
+	.page h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+form {
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.page .form-group {
+  float: left;
+  margin-bottom: 15px;
+  width: 100%;
+}
+label {
+    float: left;
+    width: 43%;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+.page .form-control {
+    border-color: #000;
+    border-radius: 0;
+    float: left;
+    height: 25px;
+    padding: 2px;
+    width: auto;
+}
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+/*Responsive css*/
+@media only screen and (max-width: 767px) {
+.page {
+  width: 76%;
+}
+.login-page {
+  width: 100%;
+}
+}
+@media only screen and (min-width: 0) and (max-width: 480px) and (orientation:landscape){
+.page {
+  width: 80%;
+}
+.login-page {
+  width: 100%;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) and (orientation:landscape){
+.page {
+  width: 84%;
+}
+.login-page {
+  width: 355px;
+}
+}
+@media only screen and (min-width: 760px) and (max-width: 1024px){
+.page {
+  width: 90%;
+}
+}
+
+.register-page {
+  margin: 0 auto;
+  width: 390px;
+}
+
+/*Responsive css*/
+@media only screen and (max-width: 767px) {
+.page {
+  width: 76%;
+}
+.register-page {
+  width: 100%;
+}
+}
+@media only screen and (min-width: 0) and (max-width: 480px) and (orientation:landscape){
+.page {
+  width: 80%;
+}
+.register-page {
+  width: 100%;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) and (orientation:landscape){
+.page {
+  width: 84%;
+}
+.register-page {
+  width: 355px;
+}
+}
+@media only screen and (min-width: 760px) and (max-width: 1024px){
+.page {
+  width: 90%;
+}
+}
